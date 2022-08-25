@@ -4,8 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+click = "*"
+boto3 = "*"
+progress = "*"
 
 [dev-packages]
+ipython = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.10"
